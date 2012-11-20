@@ -1,0 +1,17 @@
+This is the source code to my web page: AJLeonardi.co
+
+I'll be using this page to help myself get more familiar with web development, git, etc.
+
+Current Features:
+- IE specific message
+- floating div which moves around etc when resizing the window -- so shouldn't look like total crap
+- in chrome, safari, firefox? background image is "cover"
+
+Future changes:
+- reference Gravatar image so I only need to change my photo in one place
+- the "links" list look like crap, and makes the content DIV look unbalanced -- I'll need a better design for this
+- get shadows working in IE
+- get background img to scale correctly in IE
+- Create dynamic divs which display my twitter/linkedIn/etc on the left side on hover
+
+test
