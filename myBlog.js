@@ -1,5 +1,4 @@
 function blogCallback(entries){
-	//console.log(entries);
 	var posts = entries.posts;
 	var blogHTML=[];
 
@@ -23,11 +22,10 @@ function gitCallback(response)
 {	var repos=[];
 	repos = response.data;
 	var gitHTML=[];
-	console.log(repos);
+
 	for(var i=0; i<repos.length; i++)
 	{
 		var repoName = repos[i].name;
-		//console.log(repoName);
 		var repoDesc = repos[i].description;
 		var numForks = repos[i].forks_count;
 		var numWatchers = repos[i].watchers_count;
