@@ -8,12 +8,15 @@ Current Features:
 - reference Gravatar image so I only need to change my photo in one place
 - Twitter feed shown within my site
 - blog shown within my site (two entries)
+- gitHub shown within my site
 
 
 Future changes:
 - the "links" list look like crap, and makes the content DIV look unbalanced -- I'll need a better design for this
 - get background img to scale correctly in IE
 - find a good image for my blog
-- Show LinkedIn and gitHub within my site
+- Show LinkedIn within my site (requires OAuth)
 - fix so that the "close" icon is displayed on top of the feed's header.
-- load twitter/blog etc on click -- not on doc load...currently it takes too long, and the links take you to the actual page if clicked before page finished loading -- which is ok, but not ideal.
+- load twitter/blog etc on click -- not on doc load...currently it takes too long, and the links take you to the actual page if clicked before page finished loading (which is ok, but not ideal).
+- Cleanup/Consolidate CSS
+- Consolidate JS Callbacks
