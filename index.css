@@ -8,18 +8,95 @@ BODY{
 	background-size: cover;
 }
 
+.linkDisplayedInFeed{
+	color: #CF5335;
+}
+.feedHeader{
+	width:100%;
+	display: inline-block;
+}
+.feed h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.collapseFeed{
+	border-radius: 100%;
+	position: relative;
+	height:25px;
+	width:25px;
+	margin-top: 5px;
+	margin-right: 5px;
+   	-webkit-transition:background-color .1s linear;
+	-moz-transition:background-color .1s linear;
+	-o-transition:background-color .1s linear;
+}
+
+.feed_list p a{
+	font-size: 90%;
+}
+
+.collapseFeed:hover{
+	/*background-color: #CF5335;*/
+}
+
+.feedContainer{
+	display:block;
+	background-color: #F2F5FA;
+	box-shadow: 0 2px 10px  #666 ;
+	width: 600px;
+	/*height:700px;*/
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: -700px;
+	margin-top: 5%;
+	margin-left:5%;
+	margin-bottom: 5%;
+	padding-bottom: 70px;
+}
+#twitter_m.feed{
+	position: relative;
+	top:-10px;
+}
+.feed{
+	max-height: 550px;
+	overflow: auto;
+
+}
+
+.feedHeader img{
+	position:relative;
+	height:100px;
+	width: 100px;
+	top:10px;
+	left:10px;
+}
+.feedHeader div{
+	display: inline-block;
+	margin: auto;
+}
+
+#Twitter .feedHeader div{
+	position:relative;
+	bottom: 12px;
+}
 
 .container{
+	display: block;
+	background-color: #F2F5FA;
+	padding:5% 5% 5% 5%;
+	box-shadow: 0 2px 10px  #666 ;
 	float:right;
 	position: absolute;
 	top:0%;
 	right:0%;
-	background-color: #F2F5FA;
+	/*background-color: #F2F5FA;*/
 	height:20%;
 	margin-top:5%;
 	margin-right:5%;
-	padding:5% 5% 5% 5%;
-	box-shadow: 0 2px 10px  #666 ;
+	/*padding:5% 5% 5% 5%;*/
+	/*box-shadow: 0 2px 10px  #666 ;*/
 	min-height: 185px;
 
 	white-space: nowrap;
@@ -60,20 +137,17 @@ h3{
 display: inline;
 }
 
-img{
+.container img{
 	position:absolute;
 	top:5%;
 	left: 9%;
 	display: block;
 	/*height:35%;*/
 	width: 30%;
-
 	border-radius: 10px;
 	/*border: solid black 1px;*/
-
 	min-height: 60px;
 	min-width:	45px;
-
 	margin: 0px 0px 0px 0px;
 
 }
@@ -83,7 +157,6 @@ img{
 	position: absolute;
 	top:8%;
 	right: 8%;
-	border-radius: 5px;
 	padding:5px 5px 5px 5px;
 	margin: 2px 2px 2px 2px;
 	margin-right: auto;
@@ -116,6 +189,5 @@ hr{
 	position: relative;
 	margin-top: 0px;
 	text-align: center;
-
-
 }
+
