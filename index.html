@@ -41,7 +41,7 @@
 					<div><h3>@<a href="http://www.twitter.com/AJLeonardi">AJLeonardi:</a></h3></div>
 				</div>
   				<div id="twitter_m" class='feed'>
-    				<div id="twitter_container">
+    				<div id="twitter_container" class="feed_wrapper">
       					<ul id="twitter_update_list" class='feed_list'></ul>
     				</div>
   				</div>
@@ -54,7 +54,7 @@
 					<div><h3><a href="http://blog.thelunchboxcontains.me">The Lunchbox Contains Me:</a></h3></div>
 				</div>
 				<div id="blog_f" class='feed'>
-					<div id="blog_container">
+					<div id="blog_container" class="feed_wrapper">
 						<ul id="blog_post_list" class='feed_list'></ul>
 					</div>
 				</div>
@@ -67,7 +67,9 @@
 					<div><h3><a href="https://github.com/AJLeonardi">AJLeonardi Public Repos:</a></h3></div>
 				</div>
 				<div id="git_f" class='feed'>
-					<ul id="git_repo_list" class='feed_list'></ul>
+					<div id='git_container' class="feed_wrapper">
+						<ul id="git_repo_list" class='feed_list'></ul>
+					</div>
 				</div>
 				<script src="https://api.github.com/users/AJLeonardi/repos?callback=gitCallback"></script>
 
