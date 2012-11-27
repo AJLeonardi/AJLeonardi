@@ -12,6 +12,8 @@ BODY{
 	color: #CF5335;
 }
 .feedHeader{
+	position: relative;
+	top:-17px;
 	width:100%;
 	display: inline-block;
 }
@@ -22,13 +24,22 @@ BODY{
 .collapseFeed{
 	border-radius: 100%;
 	position: relative;
-	height:25px;
-	width:25px;
+	height:17px;
+	width:17px;
 	margin-top: 5px;
 	margin-right: 5px;
+	z-index: 30;
    	-webkit-transition:background-color .1s linear;
 	-moz-transition:background-color .1s linear;
 	-o-transition:background-color .1s linear;
+}
+
+
+
+.link_div{
+
+	position:relative;
+	top:0px;
 }
 
 .feed_list p a{
@@ -41,7 +52,7 @@ BODY{
 }
 
 .collapseFeed:hover{
-	/*background-color: #CF5335;*/
+	background-color: #CF5335;
 }
 
 .feedContainer{
@@ -63,7 +74,7 @@ BODY{
 	max-height: 550px;
 	overflow: auto;	
 	position: relative;
-	top:-10px;
+	top:-20px;
 	padding: 0px 0px 0px 0px;
 	width: 415px;
    	background-color: #F2F5FA;
