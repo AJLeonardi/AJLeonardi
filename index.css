@@ -141,10 +141,15 @@ a:hover{
 	*top:45%;
 	left: 10%;
 	font-size: 1.1em;
+	text-shadow: white 1px 1px 0px;
+	font-weight:bold;
+	font-style: italic;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 h3{
-display: inline;
+	display: inline;
+	color:#5C5755;
 }
 
 .container img{
