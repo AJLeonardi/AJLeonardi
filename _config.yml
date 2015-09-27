@@ -9,6 +9,7 @@ color:
   primary-dark: '#000000'
   primary-light: '#222222'
   links: '#219ab3'
+  text-on-black: '#858585'
 
 # Footer settings
 footer: Anthony Leonardi

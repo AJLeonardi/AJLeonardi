@@ -34,6 +34,7 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    color: {{ site.color.text-on-black }};
 }
 
 @media(min-width:767px) {
@@ -161,6 +162,7 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    color: #ffffff;
 }
 
 @media(min-width:767px) {
@@ -175,6 +177,7 @@ a:focus {
 
     .intro .intro-body .intro-text {
         font-size: 25px;
+        color: #ffffff;
     }
 }
 
@@ -384,6 +387,7 @@ body {
 
 .vert-element>.sub-header{
   font-size: 115%;
+  color: #fff;
 }
 
 .vert-element>h3{
