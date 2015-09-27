@@ -376,6 +376,7 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+/*  --  Elements for the CV area  --  */
 .vert-element{
   text-align: left;
   padding: 10px 15px;
@@ -392,4 +393,22 @@ body {
 
 .vert-element>h3{
   margin-bottom:0px;
+}
+
+/*  --  Elements for the Projects and Interests area  --  */
+.horz-element{
+  text-align: left;
+  padding: 15px 10px;
+  border-top: 7px solid {{ site.color.links }};
+  margin: 20px 20px;
+
+}
+
+.horz-element>.sub-header{
+  font-size: 115%;
+  color: #fff;
+}
+
+.horz-element>h3{
+  /*margin-bottom:0px;*/
 }

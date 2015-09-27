@@ -1,16 +1,30 @@
 
 <section id="Projects" class="container content-section text-center alt-bkg" style="margin:0px; width: 100%;">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            <h2>Projects</h2>
-            <p><a href='#Contact'>{{ site.email }}</a></p>
-            <ul class="list-inline banner-social-buttons">
-                {% for network in site.social %}
-                <li>
-                    <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
-                </li>
-                {% endfor %}
-            </ul>
+      <div class="row">
+          <div class="col-lg-2"></div>
+          <!--<div class="col-lg-8 col-lg-offset-2">-->
+          <div class="col-lg-8">
+              <h2>Projects</h2>
+          </div>
+          <div class="col-lg-2">
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4">
+          <div class="horz-element">
+          <h3>Hacking Seconds</h3>
+          <p>I'm a bit of a watch geek. In my spare time I've been building a social network for watch collectors. We've got a few users, but it's more for me to work on my dev skills than anything else.</p>
+          <p>You can check it out at <a target='_blank' href='http://www.hackingseconds.com'>HackingSeconds.com</a>, and my "profile" <a target='_blank' href='http://www.hackingseconds.com/Anthony'>here</a>. Also check out my HackingSeconds instagram acct <a target='_blank' href='https://instagram.com/HackingSeconds'>here</a> (it's way more popular than my personal one).</p>
+          </div>
         </div>
-    </div>
+        <div class="col-lg-4">
+          <div class="horz-element">
+          <h3>Hosted JQuery Walkthroughs</h3>
+          <p>I wanted to create a browser extension that let people create tutorials on any website when I got tired of explaining facebook to my mom. With this, if she wanted to know how to post something, I could create a jQuery Tutorial that highlights the area of facebook to use and a popover with text or a youtube video explaining it to her.</p>
+          <p>It's a mess (it was one of my first web projects), but you can check out the source <a target='_blank' href='https://github.com/AJLeonardi/Tutorial_Platform'>here</a>.</p>
+        </div>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
 </section>
