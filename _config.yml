@@ -1,0 +1,31 @@
+# Site settings
+title: Grayscale
+email: anthony dot leonardi at gmail.com
+url: http://ajleonardi.co
+description: "The personal and professional space of Anthony Leonardi. "
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Anthony Leonardi
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://au.linkedin.com/in/anthonyleonardi
+  - title: instagram
+    url: https://instagram.com/AJLeonardi
+  - title: twitter
+    url: https://twitter.com/AJLeonardi
+  - title: github
+    url: https://github.com/AJLeonardi
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/1893161/ajleonardi
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
