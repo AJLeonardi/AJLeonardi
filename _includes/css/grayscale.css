@@ -61,6 +61,10 @@ a:focus {
     font-weight: 400;
 }
 
+.alt-bkg{
+    background-color: {{ site.color.primary-light }};
+}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -250,6 +254,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .download-section {
@@ -273,6 +278,7 @@ a:focus {
 @media(min-width:767px) {
     .content-section {
         padding-top: 200px;
+        padding-bottom: 200px
     }
 
     .download-section {
@@ -336,6 +342,7 @@ ul.banner-social-buttons li {
 
 footer {
     padding: 50px 0;
+    margin-top: 10px;
 }
 
 footer p {
