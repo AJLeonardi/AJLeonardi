@@ -389,10 +389,17 @@ body {
 .vert-element>.sub-header{
   font-size: 115%;
   color: #fff;
+  margin-bottom: 10px;
 }
 
 .vert-element>h3{
   margin-bottom:0px;
+}
+.vert-element>ul{
+  color: {{site.color.text-on-black}};
+}
+.vert-element>ul>li>p{
+  margin-bottom: 0px;
 }
 
 /*  --  Elements for the Projects and Interests area  --  */
