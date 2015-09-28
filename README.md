@@ -6,7 +6,7 @@ Design built off of this [jekyll theme](https://github.com/jeromelachaud/graysca
 Using [jekyll](http://jekyllrb.com/)
 
 ## Check it Out
-View my website in action [here](https://ajleonardi.co)
+View my website in action [here](http://ajleonardi.co)
 
 ## Screenshot
 ![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
