@@ -9,4 +9,4 @@ Using [jekyll](http://jekyllrb.com/)
 View my website in action [here](http://ajleonardi.co)
 
 ## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/AJLeonardi/AJLeonardi/website-landing-page-cropped.jpg)
