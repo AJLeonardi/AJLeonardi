@@ -400,6 +400,7 @@ body {
 }
 .vert-element>ul>li>p{
   margin-bottom: 0px;
+  padding: 5px 0px;
 }
 
 /*  --  Elements for the Projects and Interests area  --  */
