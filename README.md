@@ -1,7 +1,7 @@
 My Personal Website
 =========================
 
-Design built with this [jekyll theme](http://ajleonardi.github.io/grayscale-theme/) which was based off of a [theme](https://github.com/jeromelachaud/grayscale-theme) by [@jeromelachaud](https://github.com/jeromelachaud/)
+Design built with this [jekyll theme](https://ajleonardi.github.io/grayscale-theme/) which was based off of a [theme](https://github.com/jeromelachaud/grayscale-theme) by [@jeromelachaud](https://github.com/jeromelachaud/)
 
 Using [jekyll](http://jekyllrb.com/)
 
